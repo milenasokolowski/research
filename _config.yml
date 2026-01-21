@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: My website
+title: 女性史研究を目指して：学習と考察の記録
 
 # Your name to show in the footer
 author: Milena Sokolowski
@@ -20,7 +20,8 @@ author: Milena Sokolowski
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
+  ホームページ: "index"
+  レポート："report"
 
 ################
 # --- Logo --- #
