@@ -40,7 +40,7 @@ body {
   background-image: url({{ site.page-img | relative_url }});
   background-attachment: fixed;
   {% endif %}
-  overflow-wrap: anywhere;
+  overflow-wrap: anywhere; /*first here was break-word;*/
   min-height: 100vh;
   display: flex;
   flex-direction: column;
