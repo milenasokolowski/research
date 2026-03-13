@@ -51,6 +51,9 @@ body > main {
 p {
   line-height: 1.5;
   margin: 1.875rem 0;
+  /*i tried this */
+  line-break: strict;
+  word-break: keep-all;
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: var(--header-font);
