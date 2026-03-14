@@ -211,7 +211,7 @@ img {
 
 .navbar-custom .navbar-nav .nav-item {
   text-transform: uppercase;
-  font-size: 0.8125rem;
+  font-size: 1.5rem;/*changed the 0.8125 here*/
   letter-spacing: 0.0625rem;
 }
 
