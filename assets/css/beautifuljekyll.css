@@ -1130,3 +1130,22 @@ pre {
     display: inline-block;
   }
 }
+
+.desktop-only {
+  display: block;
+}
+
+@media (max-width: 767px) {
+  .desktop-only {
+    display: none;
+  }
+}
+.phone-only {
+  display: block;
+}
+
+@media (min-width: 767px) {
+  .phone-only {
+    display: none;
+  }
+}
