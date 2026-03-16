@@ -220,6 +220,7 @@ subtitle: 学術的を学び途中
   <summary>『日本における女性労働の歴史』の発表のスライドを見る</summary>
 <figure>
 <iframe 
+  class="pdfviewer"
   data-src="https://milenasokolowski.github.io/research/assets/file/労働発表.pdf"
   width="100%"
   height="800"
@@ -235,6 +236,7 @@ subtitle: 学術的を学び途中
   <summary>『日本における女性労働の歴史』のレポートを見る</summary>
 <figure>
 <iframe 
+  class="pdfviewer"
   data-src="https://milenasokolowski.github.io/research/assets/file/労働小.pdf"
   width="100%"
   height="800"
@@ -258,6 +260,7 @@ subtitle: 学術的を学び途中
   <summary>『日本における女性指導者の歴史』のレポートを見る</summary>
 <figure>
 <iframe 
+  class="pdfviewer"
   data-src="https://milenasokolowski.github.io/research/assets/file/女性リーダー.pdf"
   width="100%"
   height="800"
@@ -275,6 +278,7 @@ subtitle: 学術的を学び途中
   <summary>『女性にも、愛せる歴史の権利』のPDFを見る</summary>
 <figure>
 <iframe 
+  class="pdfviewer"
   data-src="https://milenasokolowski.github.io/research/assets/file/愛せる歴史の権利.pdf"
   width="100%"
   height="800"
@@ -301,6 +305,7 @@ subtitle: 学術的を学び途中
   <summary>『近代における性別役割の変化』のスライドを見る</summary>
 <figure>
 <iframe 
+  class="pdfviewer"
   data-src="https://milenasokolowski.github.io/research/assets/file/近代化における母性と主婦.pdf"
   width="100%"
   height="800"
@@ -315,9 +320,11 @@ subtitle: 学術的を学び途中
   
 </section>
 <script>
-if (window.innerWidth >= 768) {
-  document.querySelectorAll(".pdfviewer").forEach(function(frame) {
-    frame.src = frame.dataset.src;
-  });
-}
+document.addEventListener("DOMContentLoaded", function () {
+  if (window.innerWidth >= 768) {
+    document.querySelectorAll(".pdfviewer").forEach(function(frame) {
+      frame.src = frame.dataset.src;
+    });
+  }
+});
 </script>
