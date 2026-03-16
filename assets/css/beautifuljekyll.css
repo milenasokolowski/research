@@ -1130,6 +1130,7 @@ pre {
     display: inline-block;
   }
 }
+/*from here on its me*/
 
 .desktop-only {
   display: block;
@@ -1148,4 +1149,34 @@ pre {
   .phone-only {
     display: none;
   }
+}
+
+.toc {
+  border: 1px solid #ddd;
+  padding: 1rem 1.5rem;
+  background: #f8f8f8;
+  max-width: 400px;
+  margin: 1.5rem 0;
+}
+
+.toc h2 {
+  margin-top: 0;
+  font-size: 1.3rem;
+}
+
+.toc ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.toc li {
+  margin: 0.4rem 0;
+}
+
+.toc a {
+  text-decoration: none;
+}
+
+.toc a:hover {
+  text-decoration: underline;
 }
